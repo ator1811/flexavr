@@ -9,19 +9,19 @@
 #include <SoftwareSerial.h>
 #include <avr/pgmspace.h>
 
-#define   VERSION   F("V1.01")
+#define   VERSION   F("V1.01_A")
 
 //------------------------------------------------------------------------------------------------------
 
   #define LED_OK                 6
-  #define LED_WARN               7
+  #define LED_WARN               9 //was 7
   #define LORA_NSS              10
-  #define LORA_DIO0              5
+  #define LORA_DIO0              3 //was 5
   #define A0_MULTIPLIER      12.92
-  #define WIREBUS                4
+  #define WIREBUS                5 //was 4
   #define APRS_ENABLE            9
   #define APRS_PTT               8
-  #define APRS_DATA              3
+  #define APRS_DATA              4 //was 3 changed
   #define APRS_TX               A1   // 15
   #define APRS_RX               A2   // 16 
 
